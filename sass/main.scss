@@ -1,1 +1,29 @@
 @import "bootstrap";
+
+body {
+  background: #e3e3e3;
+}
+
+img {
+  max-width: 100%;
+}
+
+.navbar {
+  background: #e3e3e3;
+  border-bottom: none;
+}
+
+.navbar-brand {
+  img {
+    width: 200px;
+  }
+}
+
+.burger {
+  padding-top: 30px;
+}
+
+.largelogo {
+  margin: 50px auto;
+  text-align: center;
+}
