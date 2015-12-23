@@ -10,6 +10,36 @@ var _jquery2 = _interopRequireDefault(_jquery);
 
 require('bootstrap-sass');
 
+(0, _jquery2['default'])(window).resize(function () {
+
+  var windowWidth = (0, _jquery2['default'])(window).width();
+
+  if (windowWidth < 1000) {
+    (0, _jquery2['default'])('#project-image').removeClass('project-image').addClass('project-image-re');
+    (0, _jquery2['default'])('#project-desc').removeClass('project-desc').addClass('project-desc-re');
+    (0, _jquery2['default'])('#contact-cards').removeClass('contact-cards').addClass('contact-cards-re');
+    (0, _jquery2['default'])('#single-card').removeClass('hidden-card').addClass('shown-card');
+  } else if (windowWidth >= 1000) {
+    (0, _jquery2['default'])('#project-image').removeClass('project-image-re').addClass('project-image');
+    (0, _jquery2['default'])('#project-desc').removeClass('project-desc-re').addClass('project-desc');
+    (0, _jquery2['default'])('#contact-cards').removeClass('contact-cards-re').addClass('contact-cards');
+  }
+  console.log(windowWidth);
+});
+
+var windowWidth = (0, _jquery2['default'])(window).width();
+
+if (windowWidth < 1000) {
+  (0, _jquery2['default'])('#project-image').removeClass('project-image').addClass('project-image-re');
+  (0, _jquery2['default'])('#project-desc').removeClass('project-desc').addClass('project-desc-re');
+  (0, _jquery2['default'])('#contact-cards').removeClass('contact-cards').addClass('contact-cards-re');
+  (0, _jquery2['default'])('#single-card').removeClass('hidden-card').addClass('shown-card');
+} else if (windowWidth >= 1000) {
+  (0, _jquery2['default'])('#project-image').removeClass('project-image-re').addClass('project-image');
+  (0, _jquery2['default'])('#project-desc').removeClass('project-desc-re').addClass('project-desc');
+  (0, _jquery2['default'])('#contact-cards').removeClass('contact-cards-re').addClass('contact-cards');
+}
+
 },{"bootstrap-sass":2,"jquery":3}],2:[function(require,module,exports){
 /*!
  * Bootstrap v3.3.6 (http://getbootstrap.com)

@@ -5818,7 +5818,8 @@ button.close {
     display: none !important; } }
 
 body {
-  background: #e3e3e3; }
+  background: #e3e3e3;
+  font-size: 62.5%; }
 
 img {
   max-width: 100%; }
@@ -5832,6 +5833,7 @@ img {
 
 .content {
   margin: 50px auto;
+  margin-bottom: 0;
   text-align: center; }
   .content .largelogo {
     padding-bottom: 100px; }
@@ -5846,11 +5848,86 @@ img {
     .content .aboutbg .about-banner {
       margin-top: 50px; }
     .content .aboutbg .about-text {
-      margin: 500px auto;
+      margin: 400px auto;
       text-align: left;
       color: #e3e3e3;
-      width: 75%; }
+      width: 80%; }
+      .content .aboutbg .about-text p {
+        font-size: 3em;
+        font-family: 'Lato', sans-serif;
+        letter-spacing: 2px; }
   .content .projects {
-    margin-top: 50px; }
+    margin-top: 50px;
+    margin-bottom: 100px; }
+    .content .projects .project-banner {
+      margin-bottom: 100px; }
+    .content .projects .project-image {
+      display: inline-block;
+      max-width: 60%; }
+    .content .projects .project-image-re {
+      display: block;
+      margin: 0 auto;
+      max-width: 100%; }
+    .content .projects .project-desc {
+      display: inline-block;
+      max-width: 25%;
+      text-align: left;
+      vertical-align: top;
+      padding-left: 50px; }
+      .content .projects .project-desc h3 {
+        color: #908E9A;
+        font-family: 'Lato', sans-serif;
+        margin-bottom: 30px;
+        margin-top: 0; }
+      .content .projects .project-desc p {
+        color: #908E9A;
+        font-family: 'Lato', sans-serif;
+        font-size: 2.5em; }
+    .content .projects .project-desc-re {
+      margin: 0 auto;
+      display: block;
+      max-width: 80%;
+      text-align: left; }
+      .content .projects .project-desc-re h3 {
+        color: #908E9A;
+        font-family: 'Lato', sans-serif;
+        margin-bottom: 30px; }
+      .content .projects .project-desc-re p {
+        color: #908E9A;
+        font-family: 'Lato', sans-serif;
+        font-size: 2.5em; }
+  .content .contact {
+    background: url(../images/contact_bg_trans.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 1000px;
+    margin-bottom: 0;
+    overflow: hidden; }
+    .content .contact .contact-cards img {
+      margin-top: 600px;
+      padding: 10px;
+      margin-bottom: 0;
+      display: inline-block; }
+    .content .contact .contact-cards-re {
+      display: none; }
+    .content .contact .hidden-card {
+      display: hidden; }
+    .content .contact .shown-card {
+      margin: 500px auto;
+      margin-bottom: 0;
+      width: 300px;
+      height: 400px;
+      display: block;
+      background: #e3e3e3;
+      border-radius: 2px;
+      padding: 10px; }
+      .content .contact .shown-card h4 {
+        color: #131313;
+        font-family: 'Lato', sans-serif;
+        margin-bottom: 2px; }
+      .content .contact .shown-card p {
+        font-size: 2em; }
 
 /*# sourceMappingURL=main.css.map */

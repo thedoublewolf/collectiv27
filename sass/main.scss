@@ -2,6 +2,7 @@
 
 body {
   background: #e3e3e3;
+  font-size: 62.5%;
 }
 
 img {
@@ -21,6 +22,7 @@ img {
 
 .content {
   margin: 50px auto;
+  margin-bottom: 0;
   text-align: center;
   .largelogo {
     padding-bottom: 100px;
@@ -37,13 +39,107 @@ img {
       margin-top: 50px;
     }
     .about-text {
-      margin: 500px auto;
+      margin: 400px auto;
       text-align: left;
       color: #e3e3e3;
-      width: 75%;
+      width: 80%;
+      p {
+        font-size: 3em;
+        font-family: 'Lato', sans-serif;
+        letter-spacing: 2px;
+      }
     }
   }
   .projects {
     margin-top: 50px;
+    margin-bottom: 100px;
+    .project-banner {
+      margin-bottom: 100px;
+    }
+    .project-image {
+      display: inline-block;
+      max-width: 60%;
+    }
+    .project-image-re {
+      display: block;
+      margin: 0 auto;
+      max-width: 100%;
+    }
+    .project-desc {
+      display: inline-block;
+      max-width: 25%;
+      text-align: left;
+      vertical-align: top;
+      padding-left: 50px;
+      h3 {
+        color: #908E9A;
+        font-family: 'Lato', sans-serif;
+        margin-bottom: 30px;
+        margin-top: 0;
+      }
+      p {
+        color: #908E9A;
+        font-family: 'Lato', sans-serif;
+        font-size: 2.5em;
+      }
+    }
+    .project-desc-re {
+      margin: 0 auto;
+      display: block;
+      max-width: 80%;
+      text-align: left;
+      h3 {
+        color: #908E9A;
+        font-family: 'Lato', sans-serif;
+        margin-bottom: 30px;
+      }
+      p {
+        color: #908E9A;
+        font-family: 'Lato', sans-serif;
+        font-size: 2.5em;
+      }
+    }
+  }
+  .contact {
+    background: url(../images/contact_bg_trans.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 1000px;
+    margin-bottom: 0;
+    overflow: hidden;
+    .contact-cards {
+      img {
+        margin-top: 600px;
+        padding: 10px;
+        margin-bottom: 0;
+        display: inline-block;
+      }
+    }
+    .contact-cards-re {
+      display: none;
+    }
+    .hidden-card {
+      display: hidden;
+    }
+    .shown-card {
+      margin: 500px auto;
+      margin-bottom: 0;
+      width: 300px;
+      height: 400px;
+      display: block;
+      background: #e3e3e3;
+      border-radius: 2px;
+      padding: 10px;
+      h4 {
+        color: #131313;
+        font-family: 'Lato', sans-serif;
+        margin-bottom: 2px;
+      }
+      p {
+        font-size: 2em;
+      }
+    }
   }
 }
