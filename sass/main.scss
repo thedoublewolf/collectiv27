@@ -42,7 +42,7 @@ img {
       margin: 400px auto;
       text-align: left;
       color: #e3e3e3;
-      width: 80%;
+      max-width: 80%;
       p {
         font-size: 3em;
         font-family: 'Lato', sans-serif;
@@ -82,6 +82,19 @@ img {
         font-family: 'Lato', sans-serif;
         font-size: 2.5em;
       }
+      .project-link {
+        font-size: 3em;
+      }
+      span {
+        padding-right: 10px;
+        a {
+          color: #908E9A;
+          text-decoration: none;
+        }
+        a:hover {
+          color: #54445E;
+        }
+      }
     }
     .project-desc-re {
       margin: 0 auto;
@@ -97,6 +110,19 @@ img {
         color: #908E9A;
         font-family: 'Lato', sans-serif;
         font-size: 2.5em;
+      }
+      .project-link {
+        font-size: 3em;
+      }
+      span {
+        padding-right: 10px;
+        a {
+          color: #908E9A;
+          text-decoration: none;
+        }
+        a:hover {
+          color: #54445E;
+        }
       }
     }
   }
@@ -115,6 +141,9 @@ img {
         padding: 10px;
         margin-bottom: 0;
         display: inline-block;
+      }
+      img:hover {
+        opacity: 0.9;
       }
     }
     .contact-cards-re {
@@ -139,6 +168,12 @@ img {
       }
       p {
         font-size: 2em;
+        a {
+          color: #908E9A;
+        }
+        a:hover {
+          color: #54445E;
+        }
       }
     }
   }
